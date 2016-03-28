@@ -1,0 +1,29 @@
+{
+  "name": "warner",
+  "version": "0.0.1",
+  "description": "If meet the required criterion, it will trigger an event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/eslint ./lib/*.js"
+  },
+  "keywords": [
+    "warn",
+    "warner"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vicanso/warner.git"
+  },
+  "author": "Tree Xie <vicansocanbico@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "lodash": "^4.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.3.0",
+    "eslint-config-airbnb": "^6.2.0",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5"
+  }
+}
