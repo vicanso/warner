@@ -4,7 +4,7 @@
   "description": "If meet the required criterion, it will trigger an event.",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/.bin/eslint ./lib/*.js"
+    "test": "node ./node_modules/.bin/eslint ./lib/*.js && node ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha ./test/*.js --"
   },
   "keywords": [
     "warn",
