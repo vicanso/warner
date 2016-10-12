@@ -1,5 +1,10 @@
 # warner
 
+[![Build Status](https://travis-ci.org/vicanso/warner.svg?branch=master)](https://travis-ci.org/vicanso/warner)
+[![Coverage Status](https://img.shields.io/coveralls/vicanso/warner/master.svg?style=flat)](https://coveralls.io/r/vicanso/warner?branch=master)
+[![npm](http://img.shields.io/npm/v/warner.svg?style=flat-square)](https://www.npmjs.org/package/warner)
+[![Github Releases](https://img.shields.io/npm/dm/warner.svg?style=flat-square)](https://github.com/vicanso/warner)
+
 A warner for watch anything you want. If meet the required criterion, it will trigger an event
 
 
